@@ -1,2 +1,2 @@
-skeleton
+jStat for Chiχ
 ========
