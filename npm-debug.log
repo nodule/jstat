@@ -1,0 +1,104 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/rhalff/.nvm/versions/node/v5.2.0/bin/node',
+1 verbose cli   '/home/rhalff/.nvm/versions/node/v5.2.0/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@3.7.2
+3 info using node@v5.2.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData jstat
+20 silly mapToRegistry name jstat
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/jstat
+24 verbose request uri https://registry.npmjs.org/jstat
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 1:27:51 AM
+27 verbose request using bearer token for auth
+28 verbose request id cc8c151faa871dab
+29 http request GET https://registry.npmjs.org/jstat
+30 http 200 https://registry.npmjs.org/jstat
+31 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 verbose headers   etag: '"QUF3FQ39P3YUK0SU5UCILHGC"',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '7336',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Tue, 22 Mar 2016 00:27:52 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1458606471.570336,VS0,VE433',
+31 verbose headers   vary: 'Accept' }
+32 silly get cb [ 200,
+32 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly get     etag: '"QUF3FQ39P3YUK0SU5UCILHGC"',
+32 silly get     'content-type': 'application/json',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'content-length': '7336',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Tue, 22 Mar 2016 00:27:52 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-fra1227-FRA',
+32 silly get     'x-cache': 'MISS',
+32 silly get     'x-cache-hits': '0',
+32 silly get     'x-timer': 'S1458606471.570336,VS0,VE433',
+32 silly get     vary: 'Accept' } ]
+33 verbose get saving jstat to /home/rhalff/.npm/registry.npmjs.org/jstat/.cache.json
+34 verbose correctMkdir /home/rhalff/.npm correctMkdir not in flight; initializing
+35 silly fetchPackageMetaData Error: No compatible version found: jstat@0.x.x
+35 silly fetchPackageMetaData Valid install targets:
+35 silly fetchPackageMetaData 1.5.2, 1.1.5
+35 silly fetchPackageMetaData
+35 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+35 silly fetchPackageMetaData     at /home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+35 silly fetchPackageMetaData     at /home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+35 silly fetchPackageMetaData     at saved (/home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+35 silly fetchPackageMetaData     at /home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+35 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:83:15)
+35 silly fetchPackageMetaData  error for jstat@0.x.x [Error: No compatible version found: jstat@0.x.x
+35 silly fetchPackageMetaData Valid install targets:
+35 silly fetchPackageMetaData 1.5.2, 1.1.5
+35 silly fetchPackageMetaData ]
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: No compatible version found: jstat@0.x.x
+41 verbose stack Valid install targets:
+41 verbose stack 1.5.2, 1.1.5
+41 verbose stack
+41 verbose stack     at pickVersionFromRegistryDocument (/home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+41 verbose stack     at /home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+41 verbose stack     at /home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+41 verbose stack     at saved (/home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+41 verbose stack     at /home/rhalff/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+41 verbose stack     at FSReqWrap.oncomplete (fs.js:83:15)
+42 verbose cwd /srv/psichi/git/nodule/jstat
+43 error Linux 4.2.0-30-lowlatency
+44 error argv "/home/rhalff/.nvm/versions/node/v5.2.0/bin/node" "/home/rhalff/.nvm/versions/node/v5.2.0/bin/npm" "i"
+45 error node v5.2.0
+46 error npm  v3.7.2
+47 error No compatible version found: jstat@0.x.x
+47 error Valid install targets:
+47 error 1.5.2, 1.1.5
+48 error If you need help, you may report this error at:
+48 error     <https://github.com/npm/npm/issues>
+49 verbose exit [ 1, true ]
